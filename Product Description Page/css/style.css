@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.nav-bar {
+  background-color: #313132;
+  color: #adadad;
+  /* padding: 5px; */
+}
+.fa-apple {
+  color: #d6d6d6;
+  font-size: 18px;
+  margin-left: 30%;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #adadad;
+  padding-left: 40px;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+
+  line-height: 44px;
+}
+h1 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 80px;
+}
+
+header > p {
+  /* color: rgba(0, 0, 0, 0.72); */
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+img {
+  display: block;
+  /* width: 100%; */
+  text-align: center;
+  margin: 30px auto 0;
+}
+.features {
+}
+.table-head {
+  text-align: center;
+}
+.table {
+  border-collapse: collapse;
+  margin: 40px auto;
+  min-width: 400px;
+}
+.table thead tr {
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  background-color: #009879;
+}
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+.table tbody tr {
+  border-bottom: 1px solid #286b65;
+}
+.active-row {
+  color: #009879;
+  font-weight: bold;
+}
+.button {
+  display: block;
+  border-style: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: auto;
+  /* text-align: center; */
+  background-color: #009879;
+  color: white;
+  border-radius: 30px;
+}
+.test {
+  margin: 40px auto;
+  text-align: center;
+}
+.btn2 {
+  width: 800px;
+  height: 300px;
+  background-color: black;
+  border-radius: 30px;
+}
+.btn-img {
+  width: 50%;
+  height: 260px;
+}
